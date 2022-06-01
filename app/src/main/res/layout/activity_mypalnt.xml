@@ -11,21 +11,22 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
         style="?android:attr/borderlessButtonStyle"
-        android:layout_width="300dp"
-        android:layout_height="190dp"
+        android:layout_width="278dp"
+        android:layout_height="123dp"
         android:background="@drawable/color_change"
         android:foreground="@drawable/img_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.547" />
+        app:layout_constraintVertical_bias="0.412" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="296dp"
-        android:layout_height="216dp"
+    <Button
+
+        android:id="@+id/button4"
+        android:layout_width="280dp"
+        android:layout_height="132dp"
         android:background="#6685B159"
         android:drawableLeft="@drawable/img"
         android:gravity="center"
@@ -33,9 +34,10 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-    setCompoundDrawablesWithIntrinsicBounds(drawable, 0, 0, 0)
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.689" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
