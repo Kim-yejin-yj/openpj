@@ -22,5 +22,14 @@ public class mypalnt extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button myplant_in2_info_btn = (Button) findViewById(R.id.button2);
+        myplant_in2_info_btn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(getApplicationContext(), myplant_in2.class);
+                startActivity(intent);
+            }
+        });
     }
 }
