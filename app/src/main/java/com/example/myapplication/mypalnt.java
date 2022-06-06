@@ -18,10 +18,9 @@ public class mypalnt extends AppCompatActivity {
         developer_info_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),Activity_myplant_in.class);
+                Intent intent = new Intent(getApplicationContext(), Activity_myplant_in.class);
                 startActivity(intent);
             }
         });
     }
 }
-
