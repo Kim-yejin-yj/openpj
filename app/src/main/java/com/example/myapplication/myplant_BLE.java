@@ -12,3 +12,4 @@ public class myplant_BLE extends AppCompatActivity {
         setContentView(R.layout.activity_myplant_ble);
     }
 }
+

@@ -11,10 +11,12 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
         style="?android:attr/borderlessButtonStyle"
-        android:layout_width="278dp"
+        android:layout_width="200dp"
         android:layout_height="123dp"
-        android:background="@drawable/color_change"
-        android:foreground="@drawable/img_1_1"
+        android:background="@drawable/circle"
+        android:drawableLeft="@drawable/img_1_1"
+
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.451"
@@ -25,7 +27,7 @@
     <androidx.appcompat.widget.AppCompatButton
 
         android:id="@+id/button4"
-        android:layout_width="280dp"
+        android:layout_width="200dp"
         android:layout_height="132dp"
         android:background="@drawable/circle"
 
@@ -33,9 +35,9 @@
         android:drawableLeft="@drawable/img"
         android:gravity="center"
         android:text="무순"
-        android:textSize="25sp"
         android:textColor="#FFFFFF"
 
+        android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.458"

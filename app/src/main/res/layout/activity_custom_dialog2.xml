@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="344dp"
@@ -45,25 +46,40 @@
                 android:id="@+id/txt_contents"
                 android:layout_width="340dp"
                 android:layout_height="330dp"
-                android:text="무민이가 목이 마르대요! 무민이를 위해 물을 주세요! "
+                android:text="무민이가 목이 마르대요!            무민이를 위해 물을 주세요! "
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="25sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="114dp"
+                android:layout_height="82dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txt_contents"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/img" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <Button
             android:id="@+id/btn_shutdown"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Done"
+            android:text="퀘스트 완료"
             android:onClick="shutDownClick"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

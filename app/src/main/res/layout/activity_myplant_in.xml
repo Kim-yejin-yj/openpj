@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:text="식물정보"
+        android:text="화분위치 찾기"
         android:textSize="10sp"
         android:textColor="#FFFFFF"
         android:background="@drawable/circle"

@@ -76,41 +76,20 @@ public class Activity_myplant_in extends AppCompatActivity {
 
         mTvBluetoothStatus = (TextView)findViewById(R.id.button9);
         mTvReceiveData = (TextView)findViewById(R.id.tvReceiveData);
-        //mTvSendData =  (EditText) findViewById(R.id.tvSendData);
-        //mBtnBluetoothOn = (Button)findViewById(R.id.btnBluetoothOn);
-        //mBtnBluetoothOff = (Button)findViewById(R.id.btnBluetoothOff);
+
         mBtnConnect = (Button)findViewById(R.id.button9);
 
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 
 
-//        mBtnBluetoothOn.setOnClickListener(new Button.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                bluetoothOn();
-//            }
-//        });
-//        mBtnBluetoothOff.setOnClickListener(new Button.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                bluetoothOff();
-//            }
-//        });
+
         mBtnConnect.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View view) {
                 listPairedDevices();
             }
         });
-//        mBtnSendData.setOnClickListener(new Button.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                if(mThreadConnectedBluetooth != null) {
-//                    mThreadConnectedBluetooth.write(mTvSendData.getText().toString());
-//                    mTvSendData.setText("");
-//                }
-//            }
-//        });
+
 
         mBluetoothHandler = new Handler(){
             public void handleMessage(android.os.Message msg){
@@ -126,47 +105,7 @@ public class Activity_myplant_in extends AppCompatActivity {
             }
         };
     }
-    //    void bluetoothOn() {
-//        if(mBluetoothAdapter == null) {
-//            Toast.makeText(getApplicationContext(), "블루투스를 지원하지 않는 기기입니다.", Toast.LENGTH_LONG).show();
-//        }
-//        else {
-//            if (mBluetoothAdapter.isEnabled()) {
-//                Toast.makeText(getApplicationContext(), "블루투스가 이미 활성화 되어 있습니다.", Toast.LENGTH_LONG).show();
-//                mTvBluetoothStatus.setText("활성화");
-//            }
-//            else {
-//                Toast.makeText(getApplicationContext(), "블루투스가 활성화 되어 있지 않습니다.", Toast.LENGTH_LONG).show();
-//                Intent intentBluetoothEnable = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
-//                startActivityForResult(intentBluetoothEnable, BT_REQUEST_ENABLE);
-//            }
-//        }
-//    }
-//    void bluetoothOff() {
-//        if (mBluetoothAdapter.isEnabled()) {
-//            mBluetoothAdapter.disable();
-//            Toast.makeText(getApplicationContext(), "블루투스가 비활성화 되었습니다.", Toast.LENGTH_SHORT).show();
-//            mTvBluetoothStatus.setText("비활성화");
-//        }
-//        else {
-//            Toast.makeText(getApplicationContext(), "블루투스가 이미 비활성화 되어 있습니다.", Toast.LENGTH_SHORT).show();
-//        }
-//    }
-//    @Override
-//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-//        switch (requestCode) {
-//            case BT_REQUEST_ENABLE:
-//                if (resultCode == RESULT_OK) { // 블루투스 활성화를 확인을 클릭하였다면
-//                    Toast.makeText(getApplicationContext(), "블루투스 활성화", Toast.LENGTH_LONG).show();
-//                    mTvBluetoothStatus.setText("활성화");
-//                } else if (resultCode == RESULT_CANCELED) { // 블루투스 활성화를 취소를 클릭하였다면
-//                    Toast.makeText(getApplicationContext(), "취소", Toast.LENGTH_LONG).show();
-//                    mTvBluetoothStatus.setText("비활성화");
-//                }
-//                break;
-//        }
-//        super.onActivityResult(requestCode, resultCode, data);
-//    }
+
     void listPairedDevices() {
         if (mBluetoothAdapter.isEnabled()) {
             mPairedDevices = mBluetoothAdapter.getBondedDevices();
@@ -255,14 +194,7 @@ public class Activity_myplant_in extends AppCompatActivity {
                 }
             }
         }
-        //        public void write(String str) {
-//            byte[] bytes = str.getBytes();
-//            try {
-//                mmOutStream.write(bytes);
-//            } catch (IOException e) {
-//                Toast.makeText(getApplicationContext(), "데이터 전송 중 오류가 발생했습니다.", Toast.LENGTH_LONG).show();
-//            }
-//        }
+
         public void cancel() {
             try {
                 mmSocket.close();

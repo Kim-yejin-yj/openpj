@@ -1,42 +1,53 @@
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class myplant_quest extends AppCompatActivity {
-    @Override
+        @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_myplant_quest);
+
+            Button CustomD_btn = (Button) findViewById(R.id.button11);
+            CustomD_btn.setOnClickListener(new View.OnClickListener() {
+
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(),Custom_Dialog.class);
+                    startActivity(intent);
+                }
+            });
+            Button CustomD_btn1_btn = (Button) findViewById(R.id.button12);
+            CustomD_btn1_btn.setOnClickListener(new View.OnClickListener() {
+
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(),Custom_Dialog.class);
+                    startActivity(intent);
+                }
+            });
+            Button CustomD_btn2_btn = (Button) findViewById(R.id.button13);
+            CustomD_btn2_btn.setOnClickListener(new View.OnClickListener() {
+
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(),Custom_Dialog.class);
+                    startActivity(intent);
+                }
+            });
+
+            Button CustomD_btn3_btn = (Button) findViewById(R.id.button17);
+            CustomD_btn3_btn.setOnClickListener(new View.OnClickListener() {
+
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(),Custom_Dialog.class);
+                    startActivity(intent);
+                }
+            });
     }
-
-
-
 }
 
-//public class myplant_quest_in extends AppCompatActivity {
-    //@Override
-    //protected void onCreate(Bundle savedInstanceState) {
-        //super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_myplant_quest);
-        //다이얼로그 밖의 화면은 흐리게 만들어줌
-        //WindowManager.LayoutParams layoutParams = new WindowManager.LayoutParams();
-        //layoutParams.flags = WindowManager.LayoutParams.FLAG_DIM_BEHIND;
-        //layoutParams.dimAmount = 0.8f;
-        //getWindow().setAttributes(layoutParams);
 
-    //}
-
-
-    //public void btnOnclick(View view) {
-        //switch (view.getId()) {
-            //case R.id.button10:
-                //CustomDialog = new CustomDialog(this,"다이어로그에 들어갈 내용입니다.");
-                //CustomDialog.show();
-                //break;
-
-        //}
-    //}
-//}
