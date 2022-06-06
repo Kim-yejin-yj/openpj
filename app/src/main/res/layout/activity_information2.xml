@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".information2">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="417dp"
+        android:layout_height="322dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_h1" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="3dp"
+        android:text="가울테리아"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="410dp"
+        android:layout_height="356dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="2dp"
+        android:text="학명: Gaultheria procumbens\n
+과명: 진달래과\n
+원산지 정보: 아시아, 아메리카, 캐나다\n
+생육 온도: 16~20℃\n
+습도: 40~70℃\n
+관리 요구도: 낮음(잘 견딤)\n
+배치 장소: 거실 창측, 발코니 내측, 발코니 창측\n
+병해충: 응애, 깍지벌레"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+</androidx.constraintlayout.widget.ConstraintLayout>

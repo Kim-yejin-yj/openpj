@@ -25,10 +25,25 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button myplant_in_info_btn2 = (Button) findViewById(R.id.button8);
+        myplant_in_info_btn2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(getApplicationContext(), plantgram.class);
+                startActivity(intent);
+            }
+        });
 
+        Button myplant_in_info_btn3 = (Button) findViewById(R.id.button7);
+        myplant_in_info_btn3.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(getApplicationContext(), information.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
-
 
 }
