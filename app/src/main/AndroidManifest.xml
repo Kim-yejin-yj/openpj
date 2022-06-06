@@ -17,6 +17,7 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+
             android:name=".Custom_Dialog"
             android:exported="false" />
         <activity
@@ -26,7 +27,13 @@
             android:name=".myplant_BLE"
             android:exported="false" />
         <activity
-            android:name=".myplant_plus"
+            android:name=".myplant_plus" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+
             android:exported="false" />
         <activity
             android:name=".Activity_myplant_in"
@@ -35,8 +42,8 @@
             android:name=".mypalnt"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true" >
+            android:name=".LoginActivity"
+            android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
