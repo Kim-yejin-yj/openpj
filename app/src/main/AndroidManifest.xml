@@ -20,6 +20,19 @@
 
             android:name=".Custom_Dialog"
             android:exported="false" />
+        <activity android:name=".information"
+            android:exported="false"/>
+        <activity android:name=".information2"
+            android:exported="false"/>
+        <activity android:name=".plantgram"
+            android:exported="false"/>
+        <activity android:name=".plantgram2"
+            android:exported="false"/>
+        <activity android:name=".myplant_in2"
+            android:exported="false"/>
+        <activity android:name=".fav"
+            android:exported="false"/>
+
         <activity
             android:name=".myplant_quest"
             android:exported="false" />

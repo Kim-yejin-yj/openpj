@@ -47,6 +47,23 @@ public class myplant_quest extends AppCompatActivity {
                     startActivity(intent);
                 }
             });
+            Button myplantgram_info_btn = (Button) findViewById(R.id.button19);
+            myplantgram_info_btn.setOnClickListener(new View.OnClickListener() {
+
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(),plantgram.class);
+                    startActivity(intent);
+                }
+            });
+
+            Button information_info_btn = (Button) findViewById(R.id.button18);
+            information_info_btn.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public void onClick(View view){
+                    Intent intent = new Intent(getApplicationContext(), information.class);
+                    startActivity(intent);
+                }
+            });
     }
 }
 

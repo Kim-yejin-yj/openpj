@@ -3,20 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Download/MyApplication/app/src/main/res/layout/activity_custom_dialog2.xml" value="0.2875905797101449" />
-        <entry key="..\:/Download/MyApplication/app/src/main/res/layout/activity_information.xml" value="0.25" />
-        <entry key="..\:/Download/MyApplication/app/src/main/res/layout/activity_information2.xml" value="0.29393115942028986" />
-        <entry key="..\:/Download/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.2875905797101449" />
-        <entry key="..\:/Download/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.5" />
-        <entry key="..\:/Download/MyApplication/app/src/main/res/layout/activity_mypalnt.xml" value="0.17806484295845998" />
-        <entry key="..\:/Download/MyApplication/app/src/main/res/layout/activity_myplant_ble.xml" value="0.2875905797101449" />
-        <entry key="..\:/Download/MyApplication/app/src/main/res/layout/activity_myplant_plus.xml" value="0.2875905797101449" />
-        <entry key="..\:/Download/MyApplication/app/src/main/res/layout/activity_myplant_quest.xml" value="0.36614583333333334" />
-        <entry key="..\:/Download/MyApplication/app/src/main/res/layout/activity_plantgram.xml" value="0.1" />
-        <entry key="..\:/Download/MyApplication/app/src/main/res/layout/activity_plantgram2.xml" value="0.36614583333333334" />
-        <entry key="..\:/Download/MyApplication/app/src/main/res/layout/activity_register.xml" value="0.17806484295845998" />
-        <entry key="..\:/Download/MyApplication/app/src/main/res/layout/plantgram.xml" value="0.1" />
-        <entry key="..\:/Download/MyApplication/app/src/main/res/layout/plantgram2.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/button_shape.xml" value="0.1" />
         <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/circle.xml" value="0.1" />
         <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/color_change.xml" value="0.12" />
@@ -27,13 +13,17 @@
         <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_custom_dialog.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_custom_dialog2.xml" value="0.264" />
         <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_fav.xml" value="0.2" />
+        <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_information.xml" value="0.1" />
+        <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_information2.xml" value="0.1" />
         <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_mypalnt.xml" value="0.264" />
         <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_myplant_ble.xml" value="0.264" />
-        <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_myplant_in.xml" value="0.1" />
-        <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_myplant_in2.xml" value="0.2" />
+        <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_myplant_in.xml" value="0.264" />
+        <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_myplant_in2.xml" value="0.264" />
         <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_myplant_plus.xml" value="0.1765625" />
-        <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_myplant_quest.xml" value="0.4" />
+        <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_myplant_quest.xml" value="0.2" />
+        <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_plantgram.xml" value="0.1" />
+        <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_plantgram2.xml" value="0.1" />
         <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/myplant_in.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/user2/AndroidStudioProjects/MyApplication2/app/src/main/res/xml-ldltr/myplant.xml" value="0.2305352798053528" />
       </map>
