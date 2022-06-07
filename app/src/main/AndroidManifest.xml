@@ -2,11 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.myapplication">
-
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
 
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -18,12 +17,7 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".myplant_in2"
-            android:exported="false" />
-        <activity
-            android:name=".fav"
-            android:exported="false" />
-        <activity
+
             android:name=".Custom_Dialog"
             android:exported="false" />
         <activity
@@ -32,12 +26,14 @@
         <activity
             android:name=".myplant_BLE"
             android:exported="false" />
-        <activity android:name=".myplant_plus" />
+        <activity
+            android:name=".myplant_plus" />
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+
             android:exported="false" />
         <activity
             android:name=".Activity_myplant_in"
@@ -48,6 +44,7 @@
         <activity
             android:name=".LoginActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
